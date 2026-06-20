@@ -1,0 +1,156 @@
+     Chapter 1 - Introduction to Python
+
+       What is Programming?
+
+Programming is the process of writing instructions that a computer can understand and execute.
+
+
+         What is Python?
+
+Python is a high-level, interpreted, and general-purpose programming language. It is known for its simple syntax and readability.
+
+       Applications of Python
+- Artificial Intelligence
+- Machine Learning
+- Web Development
+- Automation
+- Data Science
+- Game Development
+
+
+    Features of Python
+
+- Easy to Learn and Use
+- Free and Open Source
+- High-Level Language
+- Portable and Cross-Platform
+- Large Standard Library
+- Extensive Community Support
+
+
+     Installing Python
+
+1. Visit python.org
+2. Download the latest version of Python
+3. Run the installer
+4. Enable "Add Python to PATH"
+5. Complete the installation
+
+Verify installation:
+
+```bash
+python --version
+```
+
+   First Python Program
+
+```python
+print("Hello World")
+```
+
+Output:
+
+```text
+Hello World
+```
+
+---
+
+## Python Creator
+
+Python was created by **Guido van Rossum** and was first released in **1991**.
+
+---
+
+## Modules in Python
+
+A module is a file containing reusable Python code that can be imported into other programs.
+
+Example:
+
+```python
+import math
+
+print(math.sqrt(25))
+```
+
+---
+
+## PIP
+
+PIP (Package Installer for Python) is used to install external Python packages.
+
+Example:
+
+```bash
+pip install flask
+```
+
+---
+
+## Types of Modules
+
+### Built-in Modules
+Modules that come pre-installed with Python.
+
+Examples:
+- math
+- os
+- random
+- datetime
+
+### External Modules
+Modules that need to be installed separately using pip.
+
+Examples:
+- flask
+- django
+- tensorflow
+- pyjokes
+
+---
+
+## Python REPL
+
+REPL stands for:
+
+- Read
+- Evaluate
+- Print
+- Loop
+
+Example:
+
+```python
+>>> 5 + 6
+11
+```
+
+---
+
+## Comments in Python
+
+### Single-Line Comment
+
+```python
+# This is a comment
+```
+
+### Multi-Line Comment
+
+```python
+"""
+This is a multi-line comment
+"""
+```
+
+---
+
+## Summary
+
+- Python is beginner-friendly.
+- Guido van Rossum created Python.
+- Modules provide reusable code.
+- PIP installs external packages.
+- REPL executes code interactively.
+- Comments improve code readability.'''
