@@ -1,0 +1,195 @@
+Bhai agar **GitHub professional learning repository** ke hisaab se karna hai, to Chapter 2 Notes aise rakho. Ye direct `NOTES.md` me paste kar sakte ho.
+
+# CHAPTER 2: VARIABLES AND DATA TYPES
+
+## Overview
+
+In this chapter, we learn about variables, data types, operators, type casting, and user input in Python.
+
+---
+
+## Variables
+
+### Definition
+
+A variable is a name used to store data in memory.
+
+### Syntax
+
+variable_name = value
+
+### Example
+
+a = 30
+
+name = "Harry"
+
+price = 7.22
+
+### Key Points
+
+* Variables store data.
+* Python automatically determines the data type.
+* Variable names must follow Python naming rules.
+
+---
+
+## Data Types
+
+### Integer (int)
+
+Stores whole numbers.
+
+Example:
+
+age = 18
+
+### Float (float)
+
+Stores decimal numbers.
+
+Example:
+
+price = 99.99
+
+### String (str)
+
+Stores text data.
+
+Example:
+
+name = "Adnan"
+
+### Boolean (bool)
+
+Stores either True or False.
+
+Example:
+
+is_student = True
+
+### NoneType
+
+Represents the absence of a value.
+
+Example:
+
+value = None
+
+---
+
+## Variable Naming Rules
+
+### Valid Examples
+
+name = "Harry"
+
+_age = 18
+
+student123 = 1
+
+### Invalid Examples
+
+1name = "Harry"
+
+my name = "Harry"
+
+@user = "Harry"
+
+### Rules
+
+* A variable name can contain letters, digits, and underscores.
+* A variable name must start with a letter or underscore.
+* A variable name cannot start with a digit.
+* Spaces are not allowed.
+* Special characters are not allowed.
+
+---
+
+## Operators
+
+### Arithmetic Operators
+
++, -, *, /, %, **, //
+
+### Assignment Operators
+
+=, +=, -=, *=, /=
+
+### Comparison Operators
+
+==, !=, >, <, >=, <=
+
+### Logical Operators
+
+and, or, not
+
+---
+
+## Type Function
+
+The type() function is used to determine the data type of a variable.
+
+Example:
+
+a = 31
+
+print(type(a))
+
+Output:
+
+<class 'int'>
+
+---
+
+## Type Casting
+
+Type casting converts one data type into another.
+
+Examples:
+
+str(31)      → Integer to String
+
+int("32")    → String to Integer
+
+float(32)    → Integer to Float
+
+float("66.22") → String to Float
+
+---
+
+## Input Function
+
+The input() function allows users to enter data through the keyboard.
+
+Syntax:
+
+variable = input("Enter value: ")
+
+Example:
+
+name = input("Enter your name: ")
+
+print(name)
+
+### Note
+
+The input() function always returns a string.
+
+---
+
+## Integer Input Program
+
+a = int(input("Enter number 1: "))
+
+b = int(input("Enter number 2: "))
+
+print("Number a is:", a)
+
+print("Number b is:", b)
+
+print("Sum is:", a + b)
+
+---
+
+
