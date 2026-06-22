@@ -1,0 +1,250 @@
+               CHAPTER 3: STRINGS
+
+## Overview
+
+A string is a data type in Python used to store a sequence of characters. Strings are enclosed within quotes and are one of the most commonly used data types in programming.
+
+---
+
+## Defining Strings
+
+Strings can be written in three ways:
+
+Single Quotes:
+a = 'Harry'
+
+Double Quotes:
+b = "Harry"
+
+Triple Quotes:
+c = '''Harry'''
+
+---
+
+## String Indexing
+
+Each character in a string has an index.
+
+Example:
+
+name = "Harry"
+
+H  a  r  r  y
+0  1  2  3  4
+
+Positive indexing starts from 0.
+
+Negative indexing:
+
+H   a   r   r   y
+-5 -4 -3 -2 -1
+
+---
+
+## String Slicing
+
+String slicing is used to obtain a part of a string.
+
+Syntax:
+
+string[start:end]
+
+The start index is included.
+The end index is excluded.
+
+Example:
+
+name = "Harry"
+
+name[0:3]    → "Har"
+name[1:3]    → "ar"
+name[2:5]    → "rry"
+
+---
+
+## Negative Slicing
+
+Negative indices can also be used for slicing.
+
+Example:
+
+name = "Harry"
+
+name[-4:-1]  → "arr"
+
+Equivalent to:
+
+name[1:4]    → "arr"
+
+---
+
+## Slicing with Skip Value
+
+A skip value allows characters to be skipped while slicing.
+
+Syntax:
+
+string[start:end:skip]
+
+Example:
+
+word = "amazing"
+
+word[1:6:2]
+
+Output:
+
+mzn
+
+Explanation:
+Characters are selected after skipping every second character.
+
+---
+
+## Advanced Slicing
+
+If the start index is omitted, slicing begins from index 0.
+
+Example:
+
+word[:7]
+
+If the end index is omitted, slicing continues until the last character.
+
+Example:
+
+word[0:]
+
+---
+
+## String Functions
+
+String functions are built-in methods used to manipulate strings.
+
+### len()
+
+Returns the length of a string.
+
+Example:
+
+name = "Harry"
+
+len(name)
+
+Output:
+
+5
+
+---
+
+### endswith()
+
+Checks whether a string ends with a specified value.
+
+Example:
+
+name = "Harry"
+
+name.endswith("rry")
+
+Output:
+
+True
+
+---
+
+### count()
+
+Returns the number of occurrences of a character or substring.
+
+Example:
+
+name = "Harry"
+
+name.count("r")
+
+Output:
+
+2
+
+---
+
+### capitalize()
+
+Converts the first character of a string to uppercase.
+
+Example:
+
+name = "harry"
+
+name.capitalize()
+
+Output:
+
+Harry
+
+---
+
+### find()
+
+Returns the index of the first occurrence of a character or substring.
+
+Example:
+
+name = "Harry"
+
+name.find("r")
+
+Output:
+
+2
+
+If the value is not found, it returns -1.
+
+---
+
+### replace()
+
+Replaces a word or character with another word or character.
+
+Example:
+
+name = "Harry"
+
+name.replace("r", "l")
+
+Output:
+
+Hally
+
+---
+
+## Escape Sequence Characters
+
+Escape sequence characters begin with a backslash (\).
+
+They are used to perform special formatting inside strings.
+
+Common Escape Sequences:
+
+\n  → New Line
+
+\t  → Tab Space
+
+\"  → Double Quote inside Double Quotes
+
+\'  → Single Quote inside Single Quotes
+
+\\  → Backslash
+
+Example:
+
+print("Hello\nWorld")
+
+Output:
+
+Hello
+World
+
+---
+
